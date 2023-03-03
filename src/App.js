@@ -13,14 +13,14 @@ import "./App.css";
 function App() {
   return <Router>
   <nav>
-    <Link to="/shop" className="link">Shop gallery</Link>
+    <Link to="/" className="link">Shop gallery</Link>
     <Link to="/about" className="link">About the artist</Link>
     <Link to="/contact" className="link">Contact</Link>
     
   </nav>
 
   <Routes>
-    <Route path="/shop" element={<Shop/>} />
+    <Route path="/" element={<Shop/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />
   </Routes>

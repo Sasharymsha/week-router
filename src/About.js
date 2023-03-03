@@ -4,74 +4,75 @@ import './App.css';
 export const about = [
     {
         id: 1,
-        personName: "Vasily Kandinsky",
-        image: "https://img.freepik.com/darmowe-wektory/plaski-wzor-geometryczny-wzor-tla_23-2149980284.jpg?w=740&t=st=1673948945~exp=1673949545~hmac=84b278cd73454e45940076c0b377714fbcb9a3120d8603585656f91f7a55dae5",
-        description: "Though Vasily Kandinsky pursued figurative art before 1913, he was among the first (if not the first) painters to push into pure abstraction—or as he put it, “art independent of one’s observations of the external world.” He especially believed that color could be separated from all external references and become a subject for art. His 1910 book, On the Spiritual In Art, laid out his theories, and became one of the Ur texts of 20th-century Modernism.",
-    },
+        flowersName: "Dieffenbachia",
+        image: "https://img.freepik.com/darmowe-zdjecie/roslina-monstera-deliciosa-w-doniczce_53876-133119.jpg?w=740&t=st=1676811455~exp=1676812055~hmac=3e28ece9c0a99d66418510a8fe91f4dfed23ac31e3352385b72916ebbf37bebd",
+        description: "Dieffenbachia, also called dumb cane, is a beautiful plant with leaves that feature an attractive mottled pattern. Dieffenbachia plants need well-drained, moist soil. It does best with low, indirect light, which makes it a great indoor plant for the home and office.",
+      },
     {
         id: 2,
-        personName: "Piet Mondrian",
-        image: "https://media.timeout.com/images/103225866/750/562/image.jpg",
-        description: "Along with Picasso, Mondrian is synonymous with Modern Art, and the mere mention of his name immediately conjures one of his iconic geometric compositions of primary-colored squares contained by bold, black perpendicular lines. Like many early modernists, Mondrian began by working in various styles influenced by Post-Impressionism, with echoes of Seurat and Van Gogh reverberating through his scenes of the Dutch countryside. ",
+        flowersName: "Peace Lily",
+        image: "https://img.freepik.com/darmowe-zdjecie/lilia-pokojowa-roslina-w-bialej-doniczce_53876-133124.jpg?w=360&t=st=1676811513~exp=1676812113~hmac=cc3df6a50d3b4fb95b48be1906e22da4117573ee89d0590de4ad3daee2bdf45c",
+        description: "The peace lily offers elegance and beauty with a unique look. It prefers bright, indirect light but also does well in medium, indirect light. When it needs water, it will tell you by getting droopy leaves. After watering, it perks back up in response. You can also mist it occasionally for added humidity. ",
     },
     {
         id: 3,
-        personName: "Mark Rothko",
-        image: "https://img.freepik.com/darmowe-zdjecie/widok-z-gory-artystyczne-kopia-przestrzen-malarstwo-abstrakcyjne_23-2148660954.jpg?w=740&t=st=1673949193~exp=1673949793~hmac=a6ac3a42dcf06a514cd3ac303c1fb085882b35df55ef6314e919912d96522c5e",
-        description: "Born in Latvia, Mark Rothko vies with Jackson Pollock and Willem de Kooning for the title of the most famous Abstract Expressionist artist. In terms of style if not of temperament, however, Rothko’s work differed from Pollock and De Kooning in the way he diffused paint all over the canvas rather than subject it to gestural attacks. A typical Rothko sets expansive blobs of pigment stacked atop each other against painted backdrops that reveal themselves along the edges of the composition.",
+        flowersName: "Boston Ferns ",
+        image: "https://img.freepik.com/darmowe-zdjecie/zielona-roslina-w-bialym-flowerpot_23-2148022726.jpg?w=360&t=st=1676811539~exp=1676812139~hmac=907c652da93b76a044b9d3e8d43a286bc5ab17181d14f6ee5a1ed57971d1c980",
+        description: "Boston ferns can grow quite large and make a showy but elegant addition to your home. They do especially well in bathrooms and other places that are humid but have soft, natural light. Give them moist soil, but allow them to dry out a bit during the winter months.",
     },
     {
         id: 4,
-        personName: "Jackson Pollock",
-        image: "https://as1.ftcdn.net/v2/jpg/01/78/85/28/1000_F_178852830_Dv5sYjrp4LurPGKIrx1nHYnooIEnKJbN.jpg",
-        description: "The face of Abstract Expressionism and America’s first major postwar artist (and still one of its greatest), Pollock burst onto the scene in the late 1940s and early 1950s with his signature drip paintings. They were created in an incandescent burst of creativity over a three years period between 1947 and 1950 at his Springs, New York studio in the Hamptons. His technique was famously captured by Hans Namuth, who photographs show the artist flinging commercial house-paint out of a can onto an unprimed canvas laid on the floor—a performative process that lent the moniker “action painting” to his work and that of other Abstract Expressionists.",
+        flowersName: "Ficus",
+        image: "https://img.freepik.com/darmowe-zdjecie/roslina-kalatei-w-szarej-doniczce_53876-133131.jpg?w=740&t=st=1676811764~exp=1676812364~hmac=e731380050d81a3b5facc58052e03d53c13290a74672088e5adf7cb468afdd2a",
+        description: "Ficus are popular houseplants and also often named the best plants for offices. Why are the great office plants? Because they have a striking appearance and are highly effective at purifying indoor air. A ficus prefers bright, indirect light, moist soil and occasional misting. Make sure you keep your ficus away from drafts.",
     },
     {
         id: 5,
-        personName: "Agnes Martin ",
-        image: "https://img.freepik.com/premium-zdjecie/kolorowego-obrazu-olejnego-wielo-kolorow-abstrakcjonistyczny-tlo-i-tekstura_89729-695.jpg?w=740",
-        description: "Born in Saskatchewan, Agnes Martin is often called a pioneer of Minimal Art. However, she regarded herself as an Abstract Expressionist, though you might be forgiven for wondering how she’d think so, given her nuanced compositions of grids and bands painted in barely-there colors. But there were that other artists associated with AbEx who likewise worked in uniformly painted styles, such as Barnett Newman and Ad Reinhardt. She shared Newman’s emphasis on eliciting an emotional—even epiphanic—response from the viewer over the idea of capturing the artist’s emotions in a gesture. ",
+        flowersName: "Dragon trees",
+        image: "https://img.freepik.com/darmowe-zdjecie/drzewo-agawy-w-bialej-doniczce_53876-133129.jpg?w=360&t=st=1676811618~exp=1676812218~hmac=e2bc962a604c62116683f46c9c0958ac087fe13f2872aa3c8001cb2dfe02531d",
+        description: "Dragon trees are wonderfully easy plants that tolerate a wide variety of conditions. These plants feature sword-like leaves with red edging that grow from a woody stem. As a houseplant, dragon trees should grow to around 6 feet, though in their natural environment that can reach 20 feet high.",
     }
 ]
 
 function About() {
-const [person, setPerson] = useState(0);
-const {id, personName, description, image} = about[person];
+const [plant, setPlant] = useState(0);
+const {id, flowersName, description, image} = about[plant];
 
-const previousPerson = () => {
-    setPerson ((person => {
-      person --;
-      if (person <0){
+
+const previousPlant = () => {
+    setPlant ((plant => {
+      plant --;
+      if (plant <0){
         return about.length -1;
       }
-      return person;
+      return plant;
     }))
   }
-  const nextPerson = () => {
-    setPerson ((person => {
-      person ++;
-      if (person > about.length - 1) {
-        person = 0;
+  const nextPlant = () => {
+    setPlant ((plant => {
+      plant ++;
+      if (plant > about.length - 1) {
+        plant = 0;
       }
-      return person;
+      return plant;
     }))
   }
   return(<div key={id}>
     <div className="products">
-    <h1>The 5 best abstract artists of all time</h1>
+    <h1>The best 5 plants for home</h1>
       </div>
       <div className="products">
-        <h2>{id} - {personName}</h2>
+        <h2>{id} - {flowersName}</h2>
       </div>
       <div className="products">
-        <img src = {image} width = "500px" alt="person"/>
+        <img src = {image} width = "350px" height="400px" alt="person"/>
       </div>
       <div className="products">
         <p>{description}</p>
       </div>
       <div className="products">
-        <button onClick = {previousPerson}>Previous</button>
-        <button onClick = {nextPerson}>Next</button>
+        <button onClick = {previousPlant}>Previous</button>
+        <button onClick = {nextPlant}>Next</button>
       </div>
         </div>
     

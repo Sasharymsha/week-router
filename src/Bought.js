@@ -3,52 +3,52 @@ import { data } from "./data";
 
 
 function Bought() {
-    const [painting, setPainting] = useState(data);
+    const [flowers, setFlowers] = useState(data);
     const [showText , setShowText] = useState(false);
 
-    const buyPainting = (id) => {
-    let newPaint = painting.filter(painting => painting.id !== id)
-    setPainting(newPaint)
-    }
-    const showTextClick = (element) => {
+    const buyFlowers = (id) => {
+      let newFlower = flowers.filter(flowers => flowers.id !== id)
+      setFlowers(newFlower)
+      }
+      const showTextClick = (element) => {
         element.showMore = !element.showMore
         setShowText(!showText)
-    }
+      }
 
-    return (
-        <div>
-        <div className="products">
-            <h2> Buy {painting.length} paintings</h2>
-        </div>
-        {painting.map((element => {
-        const {id,artistName,description,price,image,showMore,} = element;
-        
-
-    return(<div key={id}>
-        <div className="products">
-            <h2>{id}-{artistName}</h2>
-        </div>
-            <div className="products">
-            <img src ={image} alt="painting" width="450px" height="350px"/>
+      return (
+        <div className="general">
+          <div className="products">
+            <h1>Flowers bhguyg</h1>
+          </div>
+          {flowers.map((element => {
+          const {id,flowersName,description,price,image,showMore} = element;
+      
+      return(<div className="general" key={id}>
+          <div className="product-card">
+            <h2>{id}-{flowersName}</h2>
+          </div>
+            <div className="product-card">
+              <img src ={image} alt="painting" width="300px"/>
             </div>
-            <div className="products">
-                    <p>{showMore ? description : description.substring(0,60) + "..."}
+            <div className="container">
+                    <p>{showMore ? description : description.substring(0,50) + "..."}
                     <button onClick = {() => showTextClick(element)(!showMore)}>{showMore ? "show less" : "show more"}</button></p>
                     </div>
-            <div className="products">
-            <h3>{price}</h3>
+            <div className="product-card">
+              <h3>{price}</h3>
             </div>
-            <div className="products">
-            <button onClick = {() => buyPainting(id)}>BUY</button>
+            <div className="product-card">
+              <button onClick = {() => buyFlowers(id)}>BUY</button>
             </div>
-            </div>)
+              </div>)
             }))}
-            <div className="products">
-            <button onClick ={() => setPainting([])}>BUY ALL</button>
+            <div className="product-card">
+              <button onClick ={() => setFlowers([])}>BUY ALL</button>
             </div>
             </div>
             )
     }
+
 
     
     export default Bought;
