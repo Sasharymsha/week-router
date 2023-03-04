@@ -17,7 +17,7 @@ function Button({ data, setFlower }) {
 <button className="change" onClick={() => filteredFlowers("peonies")}>Peonies</button>
 <button className="change" onClick={() => filteredFlowers("green flower")}>Green flower</button>
 <button className="change" onClick={() => filteredFlowers("tulips")}>Tulips</button>
-<button className="change" onClick={() => filteredFlowers("wildf lowers")}>Wild flowers</button>
+<button className="change" onClick={() => filteredFlowers("wild flowers")}>Wild flowers</button>
 <button className="change" onClick={() => filteredFlowers("all flowers")}>All flowers</button>
         </div>
     )

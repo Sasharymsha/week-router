@@ -13,9 +13,9 @@ import "./App.css";
 function App() {
   return <Router>
   <nav>
-    <Link to="/" className="link">Shop gallery</Link>
-    <Link to="/about" className="link">About the artist</Link>
-    <Link to="/contact" className="link">Contact</Link>
+    <Link to="/" className="link">Flower shop</Link>
+    <Link to="/about" className="link">Plants for home</Link>
+    <Link to="/contact" className="link">Contact Us</Link>
     
   </nav>
 

@@ -58,21 +58,21 @@ const previousPlant = () => {
     }))
   }
   return(<div key={id}>
-    <div className="products">
-    <h1>The best 5 plants for home</h1>
+    <div className="plants">
+    <h2>The best 5 plants for home</h2>
       </div>
-      <div className="products">
+      <div className="plants">
         <h2>{id} - {flowersName}</h2>
       </div>
-      <div className="products">
+      <div className="plants">
         <img src = {image} width = "350px" height="400px" alt="person"/>
       </div>
-      <div className="products">
+      <div className="plants">
         <p>{description}</p>
       </div>
-      <div className="products">
-        <button onClick = {previousPlant}>Previous</button>
-        <button onClick = {nextPlant}>Next</button>
+      <div className="plants">
+        <button className="btn" onClick = {previousPlant}>Previous</button>
+        <button className="btn" onClick = {nextPlant}>Next</button>
       </div>
         </div>
     

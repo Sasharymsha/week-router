@@ -8,6 +8,7 @@ function Shop() {
     const [flowers, setFlower] = useState(data);
     
     return(<div>
+        <h1>FLOWER SHOP</h1>
     <Button 
     data={data}
     setFlower={setFlower}
